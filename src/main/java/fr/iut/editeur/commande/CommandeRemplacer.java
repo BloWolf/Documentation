@@ -11,7 +11,7 @@ public class CommandeRemplacer extends CommandeDocument{
     @Override
     public void executer() {
         if(parameters.length < 3) {
-            System.err.println("Format attendu : remplacer;texte");
+            System.err.println("Format attendu : remplacer;start;end{;texte}");
             return;
         }
         String texte = "";
