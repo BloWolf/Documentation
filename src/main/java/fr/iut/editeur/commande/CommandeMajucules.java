@@ -4,6 +4,11 @@ import fr.iut.editeur.document.Document;
 
 public class CommandeMajucules extends CommandeDocument{
 
+    /**
+     * Permet de passer une partie du texte en majuscule
+     * @param document le document dans lequel effectuer les modifications
+     * @param parameters paramètres d'appel de la fonction
+     */
     public CommandeMajucules(Document document, String[] parameters) {
         super(document, parameters);
     }
